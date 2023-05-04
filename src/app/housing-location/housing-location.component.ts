@@ -7,9 +7,7 @@ import { HousingLocation } from '../housinglocation';
   standalone: true,
   imports: [CommonModule],
   template: `
-    <p>
-      housing-location works!
-    </p>
+  <app-housing-location [housingLocation]="housingLocation"></app-housing-location>
   `,
   styleUrls: ['./housing-location.component.css']
 })
