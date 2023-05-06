@@ -7,6 +7,10 @@ export class HousingService {
 
   constructor() { }
 
+  submitApplication(firstName: string, lastName: string, email: string) {
+    console.log(`Homes application recieved: firstName: ${firstName}, lastName: ${lastName}, email: ${email}.`);
+  }
+
   housingLocationList: HousingLocation[] = [
     {
       id: 0,
